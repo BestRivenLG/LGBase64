@@ -1,18 +1,18 @@
 //
-//  iOS___AES_Base64_________UITests.m
-//  iOS开发之AES+Base64数据混合加密与解密UITests
+//  Base64____UITests.m
+//  Base64编码解码UITests
 //
-//  Created by mac on 16/6/1.
+//  Created by mac on 16/5/13.
 //  Copyright © 2016年 ZnLG. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface iOS___AES_Base64_________UITests : XCTestCase
+@interface Base64____UITests : XCTestCase
 
 @end
 
-@implementation iOS___AES_Base64_________UITests
+@implementation Base64____UITests
 
 - (void)setUp {
     [super setUp];

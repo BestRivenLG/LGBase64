@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045787E01CE5704400ECD989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045787DF1CE5704400ECD989 /* main.m */; };
+		045787E31CE5704400ECD989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045787E21CE5704400ECD989 /* AppDelegate.m */; };
+		045787E61CE5704400ECD989 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045787E51CE5704400ECD989 /* ViewController.m */; };
+		045787E91CE5704400ECD989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045787E71CE5704400ECD989 /* Main.storyboard */; };
+		045787EB1CE5704400ECD989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045787EA1CE5704400ECD989 /* Assets.xcassets */; };
+		045787EE1CE5704400ECD989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045787EC1CE5704400ECD989 /* LaunchScreen.storyboard */; };
+		045787F91CE5704400ECD989 /* Base64____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045787F81CE5704400ECD989 /* Base64____Tests.m */; };
+		045788041CE5704400ECD989 /* Base64____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045788031CE5704400ECD989 /* Base64____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045787F51CE5704400ECD989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045787D31CE5704400ECD989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045787DA1CE5704400ECD989;
+			remoteInfo = "Base64编码解码";
+		};
+		045788001CE5704400ECD989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045787D31CE5704400ECD989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045787DA1CE5704400ECD989;
+			remoteInfo = "Base64编码解码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045787DB1CE5704400ECD989 /* Base64编码解码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base64编码解码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045787DF1CE5704400ECD989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045787E11CE5704400ECD989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		045787E21CE5704400ECD989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045787E41CE5704400ECD989 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		045787E51CE5704400ECD989 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		045787E81CE5704400ECD989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045787EA1CE5704400ECD989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045787ED1CE5704400ECD989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045787EF1CE5704400ECD989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045787F41CE5704400ECD989 /* Base64编码解码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base64编码解码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045787F81CE5704400ECD989 /* Base64____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Base64____Tests.m"; sourceTree = "<group>"; };
+		045787FA1CE5704400ECD989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045787FF1CE5704400ECD989 /* Base64编码解码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base64编码解码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045788031CE5704400ECD989 /* Base64____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Base64____UITests.m"; sourceTree = "<group>"; };
+		045788051CE5704400ECD989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045787D81CE5704400ECD989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045787F11CE5704400ECD989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045787FC1CE5704400ECD989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045787D21CE5704300ECD989 = {
+			isa = PBXGroup;
+			children = (
+				045787DD1CE5704400ECD989 /* Base64编码解码 */,
+				045787F71CE5704400ECD989 /* Base64编码解码Tests */,
+				045788021CE5704400ECD989 /* Base64编码解码UITests */,
+				045787DC1CE5704400ECD989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045787DC1CE5704400ECD989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045787DB1CE5704400ECD989 /* Base64编码解码.app */,
+				045787F41CE5704400ECD989 /* Base64编码解码Tests.xctest */,
+				045787FF1CE5704400ECD989 /* Base64编码解码UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045787DD1CE5704400ECD989 /* Base64编码解码 */ = {
+			isa = PBXGroup;
+			children = (
+				045787E11CE5704400ECD989 /* AppDelegate.h */,
+				045787E21CE5704400ECD989 /* AppDelegate.m */,
+				045787E41CE5704400ECD989 /* ViewController.h */,
+				045787E51CE5704400ECD989 /* ViewController.m */,
+				045787E71CE5704400ECD989 /* Main.storyboard */,
+				045787EA1CE5704400ECD989 /* Assets.xcassets */,
+				045787EC1CE5704400ECD989 /* LaunchScreen.storyboard */,
+				045787EF1CE5704400ECD989 /* Info.plist */,
+				045787DE1CE5704400ECD989 /* Supporting Files */,
+			);
+			path = "Base64编码解码";
+			sourceTree = "<group>";
+		};
+		045787DE1CE5704400ECD989 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045787DF1CE5704400ECD989 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		045787F71CE5704400ECD989 /* Base64编码解码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				045787F81CE5704400ECD989 /* Base64____Tests.m */,
+				045787FA1CE5704400ECD989 /* Info.plist */,
+			);
+			path = "Base64编码解码Tests";
+			sourceTree = "<group>";
+		};
+		045788021CE5704400ECD989 /* Base64编码解码UITests */ = {
+			isa = PBXGroup;
+			children = (
+				045788031CE5704400ECD989 /* Base64____UITests.m */,
+				045788051CE5704400ECD989 /* Info.plist */,
+			);
+			path = "Base64编码解码UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045787DA1CE5704400ECD989 /* Base64编码解码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045788081CE5704400ECD989 /* Build configuration list for PBXNativeTarget "Base64编码解码" */;
+			buildPhases = (
+				045787D71CE5704400ECD989 /* Sources */,
+				045787D81CE5704400ECD989 /* Frameworks */,
+				045787D91CE5704400ECD989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Base64编码解码";
+			productName = "Base64编码解码";
+			productReference = 045787DB1CE5704400ECD989 /* Base64编码解码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045787F31CE5704400ECD989 /* Base64编码解码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0457880B1CE5704400ECD989 /* Build configuration list for PBXNativeTarget "Base64编码解码Tests" */;
+			buildPhases = (
+				045787F01CE5704400ECD989 /* Sources */,
+				045787F11CE5704400ECD989 /* Frameworks */,
+				045787F21CE5704400ECD989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045787F61CE5704400ECD989 /* PBXTargetDependency */,
+			);
+			name = "Base64编码解码Tests";
+			productName = "Base64编码解码Tests";
+			productReference = 045787F41CE5704400ECD989 /* Base64编码解码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		045787FE1CE5704400ECD989 /* Base64编码解码UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0457880E1CE5704400ECD989 /* Build configuration list for PBXNativeTarget "Base64编码解码UITests" */;
+			buildPhases = (
+				045787FB1CE5704400ECD989 /* Sources */,
+				045787FC1CE5704400ECD989 /* Frameworks */,
+				045787FD1CE5704400ECD989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045788011CE5704400ECD989 /* PBXTargetDependency */,
+			);
+			name = "Base64编码解码UITests";
+			productName = "Base64编码解码UITests";
+			productReference = 045787FF1CE5704400ECD989 /* Base64编码解码UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045787D31CE5704400ECD989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZnLG;
+				TargetAttributes = {
+					045787DA1CE5704400ECD989 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4XM4U55XWS;
+					};
+					045787F31CE5704400ECD989 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 045787DA1CE5704400ECD989;
+					};
+					045787FE1CE5704400ECD989 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 045787DA1CE5704400ECD989;
+					};
+				};
+			};
+			buildConfigurationList = 045787D61CE5704400ECD989 /* Build configuration list for PBXProject "Base64编码解码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045787D21CE5704300ECD989;
+			productRefGroup = 045787DC1CE5704400ECD989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045787DA1CE5704400ECD989 /* Base64编码解码 */,
+				045787F31CE5704400ECD989 /* Base64编码解码Tests */,
+				045787FE1CE5704400ECD989 /* Base64编码解码UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045787D91CE5704400ECD989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045787EE1CE5704400ECD989 /* LaunchScreen.storyboard in Resources */,
+				045787EB1CE5704400ECD989 /* Assets.xcassets in Resources */,
+				045787E91CE5704400ECD989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045787F21CE5704400ECD989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045787FD1CE5704400ECD989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045787D71CE5704400ECD989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045787E61CE5704400ECD989 /* ViewController.m in Sources */,
+				045787E31CE5704400ECD989 /* AppDelegate.m in Sources */,
+				045787E01CE5704400ECD989 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045787F01CE5704400ECD989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045787F91CE5704400ECD989 /* Base64____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045787FB1CE5704400ECD989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045788041CE5704400ECD989 /* Base64____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045787F61CE5704400ECD989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045787DA1CE5704400ECD989 /* Base64编码解码 */;
+			targetProxy = 045787F51CE5704400ECD989 /* PBXContainerItemProxy */;
+		};
+		045788011CE5704400ECD989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045787DA1CE5704400ECD989 /* Base64编码解码 */;
+			targetProxy = 045788001CE5704400ECD989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		045787E71CE5704400ECD989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045787E81CE5704400ECD989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045787EC1CE5704400ECD989 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045787ED1CE5704400ECD989 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045788061CE5704400ECD989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		045788071CE5704400ECD989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045788091CE5704400ECD989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Base64编码解码/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.znLG.Base;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0457880A1CE5704400ECD989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Base64编码解码/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.znLG.Base;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0457880C1CE5704400ECD989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Base64编码解码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znLG.Base64----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Base64编码解码.app/Base64编码解码";
+			};
+			name = Debug;
+		};
+		0457880D1CE5704400ECD989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Base64编码解码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znLG.Base64----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Base64编码解码.app/Base64编码解码";
+			};
+			name = Release;
+		};
+		0457880F1CE5704400ECD989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Base64编码解码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znLG.Base64----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Base64编码解码";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		045788101CE5704400ECD989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Base64编码解码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znLG.Base64----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Base64编码解码";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045787D61CE5704400ECD989 /* Build configuration list for PBXProject "Base64编码解码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045788061CE5704400ECD989 /* Debug */,
+				045788071CE5704400ECD989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045788081CE5704400ECD989 /* Build configuration list for PBXNativeTarget "Base64编码解码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045788091CE5704400ECD989 /* Debug */,
+				0457880A1CE5704400ECD989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0457880B1CE5704400ECD989 /* Build configuration list for PBXNativeTarget "Base64编码解码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0457880C1CE5704400ECD989 /* Debug */,
+				0457880D1CE5704400ECD989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0457880E1CE5704400ECD989 /* Build configuration list for PBXNativeTarget "Base64编码解码UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0457880F1CE5704400ECD989 /* Debug */,
+				045788101CE5704400ECD989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045787D31CE5704400ECD989 /* Project object */;
+}

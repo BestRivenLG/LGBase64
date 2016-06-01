@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  iOS开发之AES+Base64数据混合加密与解密
+//  Base64编码解码
 //
-//  Created by mac on 16/6/1.
+//  Created by mac on 16/5/13.
 //  Copyright © 2016年 ZnLG. All rights reserved.
 //
 

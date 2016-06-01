@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>iOS开发之AES+Base64数据混合加密与解密.xcscheme</key>
+		<key>Base64编码解码.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>043BE9BC1CFED44F004991EF</key>
+		<key>045787DA1CE5704400ECD989</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>043BE9D51CFED450004991EF</key>
+		<key>045787F31CE5704400ECD989</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>043BE9E01CFED450004991EF</key>
+		<key>045787FE1CE5704400ECD989</key>
 		<dict>
 			<key>primary</key>
 			<true/>
